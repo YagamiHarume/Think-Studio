@@ -113,3 +113,6 @@ async def on_message(message):
 		await message.channel.send(message.channel, playstr+"```")
 
 client.run(token)
+
+#version o.o
+#하루카의 생각공방
