@@ -1,9 +1,10 @@
 import discord
 import asyncio
+import os
 from discord.ext import commands
 
 client = discord.Client()
-token = "" #따옴표 안에 토큰 입력(디코API에서 구할 수 있음)
+token = os.environ["BOT_TOKEN"] #따옴표 안에 토큰 입력(디코API에서 구할 수 있음)
 
 
 @client.event
